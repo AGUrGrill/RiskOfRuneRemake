@@ -1,0 +1,13 @@
+{
+    "strings": {
+        "RISKOFRUNE_TENNABUCKLE_NAME": "Tenna Buckle",
+        "RISKOFRUNE_TENNABUCKLE_PICKUP": "10% more gold gain.",
+        "RISKOFRUNE_TENNABUCKLE_DESC": "<style=cIsUtility>10%</style> more gold gain <style=cStack>(+5% per stack)</style>",
+        "RISKOFRUNE_TENNABUCKLE_LORE": "Mr. Tenna has been looking for this for weeks!\nI should give it back... but its so shinyyyy...",
+		
+		"RISKOFRUNE_KNIFE_NAME": "Knife",
+        "RISKOFRUNE_KNIFE_PICKUP": "dmg",
+        "RISKOFRUNE_KNIFE_DESC": "",
+        "RISKOFRUNE_KNIFE_LORE": ""
+	}
+}
