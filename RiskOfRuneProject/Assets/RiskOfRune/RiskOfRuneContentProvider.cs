@@ -11,7 +11,6 @@ namespace RiskOfRune
         public static ReadOnlyContentPack readOnlyContentPack => new ReadOnlyContentPack(RiskOfRuneContentPack);
         internal static ContentPack RiskOfRuneContentPack { get; } = new ContentPack();
 
-        public static ItemDef knife;
         public static ItemDef tennaBuckle;
         public static AssetBundle bundle;
 
@@ -25,11 +24,10 @@ namespace RiskOfRune
             }
 
             bundle = asyncOperation.assetBundle;
-            knife = bundle.LoadAsset<ItemDef>("Knife");
             tennaBuckle = bundle.LoadAsset<ItemDef>("TennaBuckle");
             var exapansionDef = bundle.LoadAsset<RoR2.ExpansionManagement.ExpansionDef>("RiskOfRuneExpansion");
 
-            RiskOfRuneContentPack.itemDefs.Add(new ItemDef[] { knife, tennaBuckle});
+            RiskOfRuneContentPack.itemDefs.Add(new ItemDef[] { tennaBuckle});
             RiskOfRuneContentPack.expansionDefs.Add(new RoR2.ExpansionManagement.ExpansionDef[] { exapansionDef });
         }
         public IEnumerator GenerateContentPackAsync(GetContentPackAsyncArgs args)
