@@ -1,1 +1,1 @@
-# Risk Of Rune - A mod based on Deltarune. Featuring various aspects of the game brought to life in RoR2.
+# Risk of Rune - A mod that adds content from Deltarune in RoR2.

@@ -1,0 +1,44 @@
+{
+    "strings": {
+        "RISKOFRUNE_ITEM_TENNABUCKLE_NAME": "Showrunner's Buckle",
+        "RISKOFRUNE_ITEM_TENNABUCKLE_PICKUP": "10% more gold gain.",
+        "RISKOFRUNE_ITEM_TENNABUCKLE_DESCSCRIPTION": "<style=cIsUtility>10%</style> more gold gain <style=cStack>(+5% per stack)</style>",
+        "RISKOFRUNE_ITEM_TENNABUCKLE_LORE": "Mr. Tenna has been looking for this for weeks!\nI should give it back... but its so shinyyyy...",
+		
+		"RISKOFRUNE_ITEM_LANCERCARD_NAME": "Jack of Spades",
+        "RISKOFRUNE_ITEM_LANCERCARD_PICKUP": "Free unlock on stage start.",
+        "RISKOFRUNE_ITEM_LANCERCARD_DESCSCRIPTION": "Gain <style=cIsUtility>1</style> free unlock per stage <style=cStack>(+1 per 2 collected afterwards)</style>",
+        "RISKOFRUNE_ITEM_LANCERCARD_LORE": "You hear a faint hohoho...\nThis is just a card right..?",
+		
+		"RISKOFRUNE_ITEM_JACKKEY_NAME": "Closet Key",
+        "RISKOFRUNE_ITEM_JACKKEY_PICKUP": "Every 30 seconds on stage, move 5% faster.",
+        "RISKOFRUNE_ITEM_JACKKEY_DESCSCRIPTION": "Every <style=cIsUtility>30</style> seconds on stage, " +
+            "gain <style=cIsUtility>5%</style> movement speed <style=cStack>(+1% per stack)" +
+            " [resets after each stage]</style>.",
+        "RISKOFRUNE_ITEM_JACKKEY_LORE": "Stumbling around in the darkness, you enter a room." +
+            "\nIn this void there is nothing to see but a faint glow." +
+            "\nA drawer is shown, you see the surrounding but no one is here, it looks like a study of sorts..." +
+            "\nAs you open the drawer the light shines brightly, " +
+            "\nyou feel a strange pulse, your mind racing, a strange voice calls to you." +
+            "\nThe laughter is taunting you, the words in your mind, ringing, " +
+            "\n<style=cMono><style=cIsDamage>\"YOU'RE TAKING TOO LONG\"</style></style>.",
+			
+		"RISKOFRUNE_ITEM_BLUERIBBION_NAME": "Blue Ribbon",
+        "RISKOFRUNE_ITEM_BLUERIBBION_PICKUP": "Provides a boost in healing and attack speed.",
+        "RISKOFRUNE_ITEM_BLUERIBBION_DESCSCRIPTION": "Gain a 5% to healing and attack speed <style=cStack>(+5% per stack)</style>.",
+        "RISKOFRUNE_ITEM_BLUERIBBION_LORE": "",
+		
+		"RISKOFRUNE_ITEM_EXECBUFFET_NAME": "Executive Buffet",
+        "RISKOFRUNE_ITEM_EXECBUFFET_PICKUP": "Heal party +100 HP on low health.",
+        "RISKOFRUNE_ITEM_EXECBUFFET_DESCSCRIPTION": "Heal party +100 HP on low health.",
+        "RISKOFRUNE_ITEM_EXECBUFFET_LORE": "",
+		
+		"RISKOFRUNE_ITEM_EXECBUFFETCONSUMED_NAME": "Executive Buffet (Consumed)",
+        "RISKOFRUNE_ITEM_EXECBUFFETCONSUMED_PICKUP": "A dinner for executives, just not a good one...",
+        "RISKOFRUNE_ITEM_EXECBUFFETCONSUMED_DESCSCRIPTION": "A dinner for executives, just not a good one...",
+        "RISKOFRUNE_ITEM_EXECBUFFETCONSUMED_LORE": "",
+		
+		"RISKOFRUNE_EXPANSION_NAME": "Risk of Rune",
+        "RISKOFRUNE_EXPANSION_DESCRIPTION": "Adds content from Deltarune into RoR2."
+	}
+}

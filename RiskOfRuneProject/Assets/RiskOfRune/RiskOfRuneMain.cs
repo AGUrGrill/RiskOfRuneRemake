@@ -22,7 +22,7 @@ namespace RiskOfRune
     public class RiskOfRuneMain : BaseUnityPlugin
     {
         public const string GUID = "com.RiskOfRuneDevTeam.RiskOfRune";
-        public const string MODNAME = "Risk Of Rune";
+        public const string MODNAME = "Risk of Rune";
         public const string VERSION = "0.0.1";
 
         public static PluginInfo pluginInfo { get; private set; }
@@ -35,9 +35,6 @@ namespace RiskOfRune
             instance = this;
             pluginInfo = Info;
             new RiskOfRuneContent();
-
-            KnifeItem.Init();
-            TennaBuckleItem.Init();
         }
         internal static void LogFatal(object data)
         {
