@@ -16,7 +16,7 @@ public class ExecBuffetItem
     {
         orig(body, damageReport);
 
-        int itemCount = body.inventory.GetItemCountEffective(RiskOfRuneContent.lancerCard);
+        int itemCount = body.inventory.GetItemCountEffective(RiskOfRuneContent.execBuffet);
         if (itemCount <= 0) return;
 
         var holderHealth = body.healthComponent.health;

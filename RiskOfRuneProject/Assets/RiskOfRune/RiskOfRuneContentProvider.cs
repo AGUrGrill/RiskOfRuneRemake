@@ -19,9 +19,20 @@ namespace RiskOfRune
         public static ItemDef blueRibbion;
         public static ItemDef execBuffet;
         public static ItemDef execBuffetConsumed;
+        public static ItemDef gingerGuard;
+        public static ItemDef goldenIdol;
+        public static ItemDef tvDinner;
+        public static ItemDef tvDinnerConsumed;
+        public static ItemDef gachaBall;
+        public static ItemDef devilsKnife;
+        public static ItemDef thornRing;
+        public static ItemDef commRing;
+        public static ItemDef pipis;
+        public static ItemDef mrPipis;
 
         public static BuffDef jackBuff;
-        
+        public static BuffDef sanguineFrostbite;
+
 
         public static AssetBundle bundle;
 
@@ -41,11 +52,24 @@ namespace RiskOfRune
             blueRibbion = bundle.LoadAsset<ItemDef>("BlueRibbon");
             execBuffet = bundle.LoadAsset<ItemDef>("ExecBuffet");
             execBuffetConsumed = bundle.LoadAsset<ItemDef>("ExecBuffetConsumed");
+            gingerGuard = bundle.LoadAsset<ItemDef>("GingerGuard");
+            goldenIdol = bundle.LoadAsset<ItemDef>("GoldenIdol");
+            tvDinner = bundle.LoadAsset<ItemDef>("TVDinner");
+            tvDinnerConsumed = bundle.LoadAsset<ItemDef>("TVDinnerConsumed");
+            gachaBall = bundle.LoadAsset<ItemDef>("GachaBall");
+            devilsKnife = bundle.LoadAsset<ItemDef>("DevilsKnife");
+            thornRing = bundle.LoadAsset<ItemDef>("ThornRing");
+            commRing = bundle.LoadAsset<ItemDef>("CommemorativeRing");
+            pipis = bundle.LoadAsset<ItemDef>("Pipis");
+            mrPipis = bundle.LoadAsset<ItemDef>("MrPipis");
+
+            jackBuff = bundle.LoadAsset<BuffDef>("JackBuff");
             var exapansionDef = bundle.LoadAsset<ExpansionDef>("RiskOfRuneExpansion");
 
             AddItems();
 
-            RiskOfRuneContentPack.itemDefs.Add(new ItemDef[] { tennaBuckle, jackKeyNOff, lancerCard, blueRibbion, execBuffet, execBuffetConsumed });
+            RiskOfRuneContentPack.itemDefs.Add(new ItemDef[] { tennaBuckle, jackKeyNOff, lancerCard, blueRibbion, execBuffet, execBuffetConsumed, 
+                devilsKnife, goldenIdol, tvDinner, tvDinnerConsumed, gachaBall, gingerGuard, thornRing, pipis, mrPipis, commRing });
             RiskOfRuneContentPack.expansionDefs.Add(new ExpansionDef[] { exapansionDef });
 
             RemoveFromLootPool();
@@ -87,7 +111,12 @@ namespace RiskOfRune
                 if (execBuffet != null) run.availableItems.Remove(execBuffet.itemIndex);
                 if (execBuffetConsumed != null) run.availableItems.Remove(execBuffetConsumed.itemIndex);
                 if (blueRibbion != null) run.availableItems.Remove(blueRibbion.itemIndex);
-
+                if (gingerGuard != null) run.availableItems.Remove(gingerGuard.itemIndex);
+                if (goldenIdol != null) run.availableItems.Remove(goldenIdol.itemIndex);
+                if (tvDinner != null) run.availableItems.Remove(tvDinner.itemIndex);
+                if (tvDinnerConsumed != null) run.availableItems.Remove(tvDinnerConsumed.itemIndex);
+                if (thornRing != null) run.availableItems.Remove(thornRing.itemIndex);
+                if (commRing != null) run.availableItems.Remove(commRing.itemIndex);
                 PickupDropTable.RegenerateAll(run);
             };
         }

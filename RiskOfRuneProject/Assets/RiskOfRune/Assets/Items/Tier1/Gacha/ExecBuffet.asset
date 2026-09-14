@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -1284244208, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: ExecBuffet
   m_EditorClassIdentifier: 
-  deprecatedTier: 0
+  deprecatedTier: 10
   _itemTierDef: {fileID: 0}
   nameToken: RISKOFRUNE_ITEM_EXECBUFFET_NAME
   pickupToken: RISKOFRUNE_ITEM_EXECBUFFET_PICKUP
@@ -28,5 +28,5 @@ MonoBehaviour:
   isConsumed: 0
   hidden: 0
   canRemove: 1
-  tags: 020000001f000000
+  tags: 020000001f00000010000000
   requiredExpansion: {fileID: 11400000, guid: 345e64a06ccecbe43874f89406c3aeab, type: 2}
