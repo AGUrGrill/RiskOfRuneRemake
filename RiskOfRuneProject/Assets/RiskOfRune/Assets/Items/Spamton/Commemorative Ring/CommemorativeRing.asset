@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: -1284244208, guid: 951ce57ad999ac1f040a4dceb5f8b763, type: 3}
   m_Name: CommemorativeRing
   m_EditorClassIdentifier: 
-  deprecatedTier: 0
+  deprecatedTier: 1
   _itemTierDef: {fileID: 0}
   nameToken: RISKOFRUNE_ITEM_COMMRING_NAME
   pickupToken: RISKOFRUNE_ITEM_COMMRING_PICKUP
   descriptionToken: RISKOFRUNE_ITEM_COMMRING_DESCRIPTION
   loreToken: RISKOFRUNE_ITEM_COMMRING_LORE
   unlockableDef: {fileID: 0}
-  pickupModelPrefab: {fileID: 0}
+  pickupModelPrefab: {fileID: 7702935672690258525, guid: 8bee151c18dd2dc429806e342d203d85, type: 3}
   pickupModelReference:
     m_AssetGUID: 
     m_SubObjectName: 
     m_SubObjectType: 
-  pickupIconSprite: {fileID: 0}
+  pickupIconSprite: {fileID: 21300000, guid: ac4133e9e33ac4f4fb8231d3f1d72aef, type: 3}
   isConsumed: 0
   hidden: 0
   canRemove: 1

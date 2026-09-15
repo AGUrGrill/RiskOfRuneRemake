@@ -19,7 +19,7 @@ MonoBehaviour:
   descriptionToken: RISKOFRUNE_ITEM_GACHABALL_DESCRIPTION
   loreToken: RISKOFRUNE_ITEM_GACHABALL_LORE
   unlockableDef: {fileID: 0}
-  pickupModelPrefab: {fileID: 0}
+  pickupModelPrefab: {fileID: 266424991577904004, guid: 0f64f1e277333534fb7fd4e6ba582fea, type: 3}
   pickupModelReference:
     m_AssetGUID: 
     m_SubObjectName: 

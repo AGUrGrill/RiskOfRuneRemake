@@ -19,12 +19,12 @@ MonoBehaviour:
   descriptionToken: RISKOFRUNE_ITEM_DEVILSKNIFE_DESCRIPTION
   loreToken: RISKOFRUNE_ITEM_DEVILSKNIFE_LORE
   unlockableDef: {fileID: 0}
-  pickupModelPrefab: {fileID: 0}
+  pickupModelPrefab: {fileID: 732649800791963426, guid: 8a8ad4a94330a9c4caf5679406b4f117, type: 3}
   pickupModelReference:
     m_AssetGUID: 
     m_SubObjectName: 
     m_SubObjectType: 
-  pickupIconSprite: {fileID: 0}
+  pickupIconSprite: {fileID: 21300000, guid: 62f1f7de8b369b74a8fc73c6402d59c5, type: 3}
   isConsumed: 0
   hidden: 0
   canRemove: 1

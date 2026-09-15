@@ -19,12 +19,12 @@ MonoBehaviour:
   descriptionToken: RISKOFRUNE_ITEM_PIPIS_DESCRIPTION
   loreToken: RISKOFRUNE_ITEM_PIPIS_LORE
   unlockableDef: {fileID: 0}
-  pickupModelPrefab: {fileID: 0}
+  pickupModelPrefab: {fileID: 6221997244067056252, guid: daf0179be582f4c44af4396274ccccd6, type: 3}
   pickupModelReference:
     m_AssetGUID: 
     m_SubObjectName: 
     m_SubObjectType: 
-  pickupIconSprite: {fileID: 0}
+  pickupIconSprite: {fileID: 21300000, guid: 3cedf8e74af91474d88fecf8562a440e, type: 3}
   isConsumed: 0
   hidden: 0
   canRemove: 1

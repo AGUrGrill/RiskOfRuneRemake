@@ -94,8 +94,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: e2101c773df1ca49bd12927d7f45706a
     GuidInternal: 
-    m_lastTime: -8584126283651424471
-    List: []
+    m_lastTime: -8584121708589072981
+    List:
+    - name: Volume_SFX
+      guid: d3719a8fec52ec4db7e89cceb1c507ea
+      id: 3673881719
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e2101c773df1ca49bd12927d7f45706a
+      - ElementName: Volume_SFX
+        ObjectType: 13
+        guid: d3719a8fec52ec4db7e89cceb1c507ea
+      Path: Game Parameters\Default Work Unit\Volume_SFX
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:

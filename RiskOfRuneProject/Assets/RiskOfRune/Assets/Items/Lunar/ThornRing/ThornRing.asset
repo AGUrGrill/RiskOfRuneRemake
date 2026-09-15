@@ -19,12 +19,12 @@ MonoBehaviour:
   descriptionToken: RISKOFRUNE_ITEM_THORNRING_DESCRIPTION
   loreToken: RISKOFRUNE_ITEM_THORNRING_LORE
   unlockableDef: {fileID: 0}
-  pickupModelPrefab: {fileID: 0}
+  pickupModelPrefab: {fileID: 436977022198407292, guid: 65e7a62b79077a54ba2f4115ce08a0ec, type: 3}
   pickupModelReference:
     m_AssetGUID: 
     m_SubObjectName: 
     m_SubObjectType: 
-  pickupIconSprite: {fileID: 0}
+  pickupIconSprite: {fileID: 21300000, guid: 77d9ffba8e38df34d928e18d7a3ed3f8, type: 3}
   isConsumed: 0
   hidden: 0
   canRemove: 0

@@ -71,7 +71,7 @@ public class ThornRingItem
         {
             for (int i = 0; i < itemCount; i++)
             {
-                victimBody.AddBuff(RiskOfRuneContent.sanguineFrostbite);
+                victimBody.AddBuff(RiskOfRuneContent.sanguineFrostbiteDebuff);
             }
         }
     }

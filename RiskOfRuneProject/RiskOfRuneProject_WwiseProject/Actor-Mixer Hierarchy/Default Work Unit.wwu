@@ -1,6 +1,175 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{65FF1A1E-C70A-4FC6-A862-86FE4E4D652D}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{65FF1A1E-C70A-4FC6-A862-86FE4E4D652D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{65FF1A1E-C70A-4FC6-A862-86FE4E4D652D}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="SFX_Mixer" ID="{77231037-D095-4127-B3B4-1151F9EA2D45}" ShortID="263246968">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F1010BA-7547-4CCA-99CD-BCB2CA9C5C18}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{239B1F51-10C8-4BEB-A296-EB40D9C6DCCF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="sageheal" ID="{BADB6BCF-6B06-4FA5-A2AD-716B1EF4DDF0}" ShortID="185170850">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F1010BA-7547-4CCA-99CD-BCB2CA9C5C18}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{239B1F51-10C8-4BEB-A296-EB40D9C6DCCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sageheal" ID="{C5E24EA8-C572-4216-AC10-7D1AD3B8AB88}">
+									<Language>SFX</Language>
+									<AudioFile>sageheal.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="696752992"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sageheal" ID="{C5E24EA8-C572-4216-AC10-7D1AD3B8AB88}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="grave" ID="{42520573-6C1D-4E34-9DF9-537D0BFA2555}" ShortID="631731731">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F1010BA-7547-4CCA-99CD-BCB2CA9C5C18}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{239B1F51-10C8-4BEB-A296-EB40D9C6DCCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="grave" ID="{F49E299A-4AED-4672-A9BA-4DF0934DBAB6}">
+									<Language>SFX</Language>
+									<AudioFile>grave.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="202401764"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="grave" ID="{F49E299A-4AED-4672-A9BA-4DF0934DBAB6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dialtone" ID="{FE1B200A-2654-4A10-AF6C-7C9791F24914}" ShortID="785543518">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F1010BA-7547-4CCA-99CD-BCB2CA9C5C18}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{239B1F51-10C8-4BEB-A296-EB40D9C6DCCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dialtone" ID="{1167CF35-5F22-4C44-8797-06823672F15B}">
+									<Language>SFX</Language>
+									<AudioFile>dialtone.WAV</AudioFile>
+									<MediaIDList>
+										<MediaID ID="295576764"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dialtone" ID="{1167CF35-5F22-4C44-8797-06823672F15B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BIGSHOT" ID="{6477BA6B-BC41-40AB-B1CD-CB1DFE98E4F7}" ShortID="751150561">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F1010BA-7547-4CCA-99CD-BCB2CA9C5C18}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{239B1F51-10C8-4BEB-A296-EB40D9C6DCCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BIGSHOT" ID="{D3FD3B8A-639E-4612-835B-0EE35D5293C4}">
+									<Language>SFX</Language>
+									<AudioFile>BIGSHOT.WAV</AudioFile>
+									<MediaIDList>
+										<MediaID ID="425144827"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BIGSHOT" ID="{D3FD3B8A-639E-4612-835B-0EE35D5293C4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="roaringblade" ID="{10E9B4BF-B71E-4194-80F4-F8FABB78EB4C}" ShortID="456238627">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F1010BA-7547-4CCA-99CD-BCB2CA9C5C18}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{239B1F51-10C8-4BEB-A296-EB40D9C6DCCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="roaringblade" ID="{07500543-4F5B-491E-B2AC-B3216343A91B}">
+									<Language>SFX</Language>
+									<AudioFile>roaringblade.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="311189968"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="roaringblade" ID="{07500543-4F5B-491E-B2AC-B3216343A91B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="iceshock" ID="{176C9A66-7390-4C57-807D-6AF69EF320E8}" ShortID="162769447">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F1010BA-7547-4CCA-99CD-BCB2CA9C5C18}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{239B1F51-10C8-4BEB-A296-EB40D9C6DCCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="iceshock" ID="{DED52B55-8342-4A3F-A48B-17CB576B65E9}">
+									<Language>SFX</Language>
+									<AudioFile>iceshock.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="542612681"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="iceshock" ID="{DED52B55-8342-4A3F-A48B-17CB576B65E9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="rudebuster" ID="{C295ED3D-552C-4E5B-BEBE-E4B4D396E550}" ShortID="47771481">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F1010BA-7547-4CCA-99CD-BCB2CA9C5C18}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{239B1F51-10C8-4BEB-A296-EB40D9C6DCCF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="rudebuster" ID="{C42C8752-5030-4BDE-840E-9C05504B7822}">
+									<Language>SFX</Language>
+									<AudioFile>rudebuster.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="994012105"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="rudebuster" ID="{C42C8752-5030-4BDE-840E-9C05504B7822}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

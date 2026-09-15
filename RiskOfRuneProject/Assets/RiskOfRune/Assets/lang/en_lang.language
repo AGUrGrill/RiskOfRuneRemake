@@ -38,6 +38,138 @@
         "RISKOFRUNE_ITEM_EXECBUFFETCONSUMED_DESCSCRIPTION": "A dinner for executives, just not a good one...",
         "RISKOFRUNE_ITEM_EXECBUFFETCONSUMED_LORE": "",
 		
+		"RISKOFRUNE_ITEM_GRANDPRIZE_NAME": "Grand Prize",
+        "RISKOFRUNE_ITEM_GRANDPRIZE_PICKUP": "Gain a temporary gacha pull on stage start.",
+        "RISKOFRUNE_ITEM_GRANDPRIZE_DESCSCRIPTION": "Gain a random item from the gacha item pool on stage start <style=cStack>(+1 item per stack)</style>.",
+        "RISKOFRUNE_ITEM_GRANDPRIZE_LORE": "Congragulations! You are our <style=cKeywordName>397th WINNER</style>!\n" +
+            "For being our <style=cKeywordName>397th WINNER</style>, you will recieve a <style=cKeywordName>CONSOLATION PRIZE</style>.\n" +
+            "\n\n\n*Consolation prize subject to an 80% tax.",
+			
+		"RISKOFRUNE_ITEM_GINGERGUARD_NAME": "Ginger Guard",
+        "RISKOFRUNE_ITEM_GINGERGUARD_PICKUP": "Provides a boost in armor.",
+        "RISKOFRUNE_ITEM_GINGERGUARD_DESCSCRIPTION": "Gain a 5% increase to armor. <style=cStack>(+5% per stack)</style>",
+        "RISKOFRUNE_ITEM_GINGERGUARD_LORE": "",
+		
+		"RISKOFRUNE_ITEM_GOLDENIDOL_NAME": "Golden Idol",
+        "RISKOFRUNE_ITEM_GOLDENIDOL_PICKUP": "Gain 20% more experience.",
+        "RISKOFRUNE_ITEM_GOLDENIDOL_DESCSCRIPTION": "Gain 20% more experience. <style=cStack>(+20% per stack)</style>",
+        "RISKOFRUNE_ITEM_GOLDENIDOL_LORE": "",
+		
+		"RISKOFRUNE_ITEM_TVDINNER_NAME": "TVDinner",
+        "RISKOFRUNE_ITEM_TVDINNER_PICKUP": "Heal +100 HP on low health.",
+        "RISKOFRUNE_ITEM_TVDINNER_DESCSCRIPTION": "Heal +100 HP on low health.",
+        "RISKOFRUNE_ITEM_TVDINNER_LORE": "",
+		
+		"RISKOFRUNE_ITEM_TVDINNERCONSUMED_NAME": "TVDinner (Consumed)",
+        "RISKOFRUNE_ITEM_TVDINNERCONSUMED_PICKUP": "Not very much of a banquet...",
+        "RISKOFRUNE_ITEM_TVDINNERCONSUMED_DESCSCRIPTION": "Not very much of a banquet...",
+        "RISKOFRUNE_ITEM_TVDINNERCONSUMED_LORE": "",
+		
+		
+		"RISKOFRUNE_ITEM_SUSIEAXE_NAME": "Monster's Axe",
+        "RISKOFRUNE_ITEM_SUSIEAXE_PICKUP": "Shoot a Rude Buster on Primary or Secondary skill and activate UltimateHeal.",
+        "RISKOFRUNE_ITEM_SUSIEAXE_DESCSCRIPTION": "On <style=cIsUtility>Primary or Seconary skill</style> activation, fire a Rude Buster and activate UtilmateHeal." +
+            "\nRude Buster: Shoot a projectile that deals <style=cIsDamage>600%</style> base damage <style=cStack>(+200% per stack)</style>." +
+            "\nRude Buster reloads every <style=cIsUtility>5</style> seconds, up to <style=cIsUtility>2</style> charges." +
+            "\nUltimateHeal: Heal <style=cIsHealing>5% hp</style> on use.",
+        "RISKOFRUNE_ITEM_SUSIEAXE_LORE": "\"Where did you find this?\" ... \"This is the axe that ended the roaring!\"" +
+            "\n\"It's owner was Susie the Hero... though she perferred many other names...\"" +
+            "\n\"The other names?? Well... some include Violent Ax Susie, Susiezilla, AS- maybe I shouldn't tell you this...",
+			
+		"RISKOFRUNE_ITEM_DRONEHEALBOOST_NAME": "Drone Healing Boost (Dev Item)",
+        "RISKOFRUNE_ITEM_DRONEHEALBOOST_PICKUP": "",
+        "RISKOFRUNE_ITEM_DRONEHEALBOOST_DESCSCRIPTION": "",
+        "RISKOFRUNE_ITEM_DRONEHEALBOOST_LORE": "",
+		
+		"RISKOFRUNE_ITEM_GUIDEBOOK_NAME": "Sage's Manual",
+        "RISKOFRUNE_ITEM_GUIDEBOOK_PICKUP": "Teaches all drones a healing prayer.",
+        "RISKOFRUNE_ITEM_GUIDEBOOK_DESCSCRIPTION": "All drones can now additionally cast a heal prayer," +
+			"\nhealing for <style=cIsHealing>2.5%</style> hp every <style=cIsUtility>10</style> seconds. <style=cStack>(+1% hp per stack)</style>",
+        "RISKOFRUNE_ITEM_GUIDEBOOK_LORE": "You tried to read the handcrafted manual, but it was so dense it made your head spin..." +
+            "\nPerhaps just the chapter on healing will be good for now...",
+			
+			
+			
+		"RISKOFRUNE_ITEM_BIGSHOT_NAME": "Dealmaker",
+        "RISKOFRUNE_ITEM_BIGSHOT_PICKUP": "Gain stacks of <style=cDeath>[Big Shot]</style> on gold gain.",
+        "RISKOFRUNE_ITEM_BIGSHOT_DESCSCRIPTION": "<style=cShrine>+30%</style> gold gain.\nOn gold gain, gain <style=cStack>1</style> stack of <style=cDeath>[Big Shot]</style>.\n" +
+            "On <style=cIsUtility>10</style> stacks, shoot a projectile on primary skill dealing <style=cIsDamage>777%</style> dmg. <style=cStack>(+222% per stack)</style>",
+        "RISKOFRUNE_ITEM_BIGSHOT_LORE": "As the days became more dull, and bussiness started to dry, a call came in." +
+            "\nIt's your chance... a once in a lifetime chance... to become a <style=cDeath>[Big Shot]</style>.",
+			
+		"RISKOFRUNE_ITEM_ROARINGBLADE_NAME": "Roaring Blade",
+        "RISKOFRUNE_ITEM_ROARINGBLADE_PICKUP": "Stack swoon on hit, total damage dealt prior reapplies after 3 stacks.",
+        "RISKOFRUNE_ITEM_ROARINGBLADE_DESCSCRIPTION": "<style=cIsDamage>50%</style> chance to apply Swoon. Upon reaching " +
+            "<style=cIsUtility>3</style> stacks, reapply <style=cIsDamage>200%</style> of all damage dealt back to enemy. <style=cStack>(+100% per stack)</style>",
+        "RISKOFRUNE_ITEM_ROARINGBLADE_LORE": "You pick up the strange, cold blade..." +
+            "\nShivers crawl down your spine as you lift it into the air." +
+            "\nA strange feeling emerges from it, you can feel it speaking... crying... hurting..." +
+            "\nYou respond to its call, its <style=cMono><style=cDeath>anger</style></style>, you move forward, gripping the blade tightly, changed ever so slightly.",
+			
+		"RISKOFRUNE_ITEM_SCRAPBALL_NAME": "Junk Ball",
+        "RISKOFRUNE_ITEM_SCRAPBALL_PICKUP": "Gain a boost to damage and attack speed for each consumed item you own.",
+        "RISKOFRUNE_ITEM_SCRAPBALL_DESCSCRIPTION": "Gain a 5% boost to damage and attack speed for each consumed item you own. <style=cStack>(+5% per stack)</style>",
+        "RISKOFRUNE_ITEM_SCRAPBALL_LORE": "You reach into your pocket and find a small ball full of accumulated things in your pocket.\n" +
+            "\nYou look at the ball of junk in admiration of the useless itmes you've accumulated... Nothing happened.",
+			
+		
+		
+		"RISKOFRUNE_ITEM_DEVILSKNIFE_NAME": "Devilsknife",
+        "RISKOFRUNE_ITEM_DEVILSKNIFE_PICKUP": "Gain a random effect every 10 seconds for 10 seconds...",
+        "RISKOFRUNE_ITEM_DEVILSKNIFE_DESCSCRIPTION": "Grants <style=cIsUtility>WORLD REVOLVING</style> every 10 seconds.\n" +
+            "<style=cIsUtility>WORLD REVOLVING</style>: Gain a random effect every 10 seconds.\nRandom effect duration increased by <style=cStack>+5 seconds per stack</style>.",
+        "RISKOFRUNE_ITEM_DEVILSKNIFE_LORE": "You hear incomprehensible laughter and the world starts to spin.\nYou crave...  <style=cMono><style=cDeath>CHAOS</style></style>.",
+		
+		"RISKOFRUNE_ITEM_THORNRING_NAME": "Ring of Regret",
+        "RISKOFRUNE_ITEM_THORNRING_PICKUP": "Receive <style=cDeath>pain</style> to become <style=cIsUtility><style=cMono>stronger</style></style>.",
+        "RISKOFRUNE_ITEM_THORNRING_DESCSCRIPTION": "Apply <style=cIsUtility>1</style> stack of <style=cIsUtility>frostbite on hit. </style><style=cStack>(+1 per stack)</style>" +
+            "\nStacks of frostbite cause enemies to <style=cIsUtility>freeze</style>.\nLose <style=cIsHealth>30% hp.</style> <style=cStack>(10% hp per stack)</style>",
+		"RISKOFRUNE_ITEM_THORNRING_LORE": "<style=cShrine>[Angel]</style>, <style=cShrine>[Angel]</style> \nARE YOU LOOKING FOR THE <style=cIsUtility>[Ring]</style>\n OF <style=cDeath>[Thorns]</style> ?"
+		
+		
+		
+		"RISKOFRUNE_ITEM_PIPIS_NAME": "Pipis",
+        "RISKOFRUNE_ITEM_PIPIS_PICKUP": "Increases [ALL] of your stats.",
+        "RISKOFRUNE_ITEM_PIPIS_DESCSCRIPTION": "Increases <style=cIsUtility>ALL stats</style> by <style=cIsUtility>5%</style>. Pearl be damned my boy ballin'.",
+		"RISKOFRUNE_ITEM_PIPIS_LORE": "You can't get this from an egg!"
+		
+		"RISKOFRUNE_ITEM_MRPIPIS_NAME": "Mr. Pipis",
+        "RISKOFRUNE_ITEM_MRPIPIS_PICKUP": "Gain [ALL] elite buffs!",
+        "RISKOFRUNE_ITEM_MRPIPIS_DESCSCRIPTION": "Provides <style=cIsUtility>all elite buffs</style> <style=cStack>(excluding Aurelionite's blessing)</style>.",
+		"RISKOFRUNE_ITEM_MRPIPIS_LORE": "WOWZAS! You can't get THIS from an egg!"
+		
+		
+		
+		"RISKOFRUNE_ITEM_GASTERMASK_NAME": "Mystery Man's Mask",
+        "RISKOFRUNE_ITEM_GASTERMASK_PICKUP": "Enemies that fall below 10% hp become corrupted allies.",
+        "RISKOFRUNE_ITEM_GASTERMASK_DESCSCRIPTION": "Enemies gain <style=cIsDamage>corruption</style> when hit, when below <style=cIsDamage>10%</style> hp" +
+            "\nenemies become corrupted allies for <style=cIsUtility>10</style> seconds. <style=cStack>(+5 seconds per stack)</style>",
+		"RISKOFRUNE_ITEM_GASTERMASK_LORE": "ENTRY NUMBER SEVENTEEN" +
+            "\nDARK DARKER YET DARKER" +
+            "\nTHE DARKNESS KEEPS GROWING" +
+            "\nTHE SHADOWS CUTTING DEEPER" +
+            "\nPHOTON READINGS NEGATIVE" +
+            "\nTHIS NEXT EXPERIMENT SEEMS" +
+            "\nVERY" +
+            "\n<style=cMono>VERY</style>" +
+            "\nINTERESTING" +
+            "\n..." +
+            "\nWHAT DO YOU TWO THINK?"
+			
+		
+		
+		"RISKOFRUNE_ITEM_COMMRING_NAME": "Commemorative Ring",
+        "RISKOFRUNE_ITEM_COMMRING_PICKUP": "10% increased luck at Suspicious Exchange.     <style=cIsDamage>[PROCEED]</style>",
+        "RISKOFRUNE_ITEM_COMMRING_DESCSCRIPTION": "Gain a <style=cIsUtility>10%</style> higher roll chance at Suspicious Exchange.",
+		"RISKOFRUNE_ITEM_COMMRING_LORE": "WHEN KIDS LIKE YOU ARE <style=cEvent>[Beating People Up]</style>," +
+            "\n[Spitting] IN THEIR EYES, THROWING SAND IN THEIR <style=cEvent>[Face]</style>," +
+            "\n[Stomping] ON THEIR TOES, YANKING THEIR <style=cEvent>[Noses]</style>," +
+            "\nAND NOT EVEN GIVING THEM A SINGLE CENT FOR IT!?" +
+            "\nYOU SHOULD HAVE DONE ALL THAT EARLIER!" +
+            "\nAND BEEN THE FIRST TO OWN MY <style=cEvent>[Commemorative Ring]</style>" +
+            "\nTOO BAD! SEE YOU KID!"
+		
+		
 		"RISKOFRUNE_EXPANSION_NAME": "Risk of Rune",
         "RISKOFRUNE_EXPANSION_DESCRIPTION": "Adds content from Deltarune into RoR2."
 	}

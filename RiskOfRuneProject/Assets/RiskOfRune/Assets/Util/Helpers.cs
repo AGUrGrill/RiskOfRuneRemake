@@ -200,7 +200,7 @@ public static class Helpers
 
     #region Interactable UI
     // Thank you to viliger for this code from Shrine of Repair
-
+    /*
     public static void AddPersistentListener(this UnityEvent<MPButton, PickupDef> unityEvent, UnityAction<MPButton, PickupDef> action)
     {
         unityEvent.m_PersistentCalls.AddListener(new PersistentCall
@@ -274,7 +274,7 @@ public static class Helpers
 
         // Apply changes to the texture
         texture.Apply();
-        DeltaruneMod.DeltarunePlugin.malachiteOverlayMat.SetTexture("_RemapTex", texture);
+        //DeltaruneMod.DeltarunePlugin.malachiteOverlayMat.SetTexture("_RemapTex", texture);
 
         return texture;
     }
@@ -287,6 +287,7 @@ public static class Helpers
         byte a = (byte)Mathf.Lerp(colorA.a, colorB.a, t);
         return new Color32(r, g, b, a);
     }
+    */
 
     #endregion
 
