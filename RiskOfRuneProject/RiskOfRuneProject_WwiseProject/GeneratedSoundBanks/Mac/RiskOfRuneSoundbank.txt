@@ -1,0 +1,21 @@
+Event	ID	Name			Wwise Object Path	Notes
+	520313368	Play_sageheal			\Default Work Unit\Play_sageheal	
+	893303731	Play_iceshock			\Default Work Unit\Play_iceshock	
+	1166387236	Play_roaringblade			\Default Work Unit\Play_roaringblade	
+	1506173320	Play_BIGSHOT			\Default Work Unit\Play_BIGSHOT	
+	2011881192	Play_dialtone			\Default Work Unit\Play_dialtone	
+	2204239051	Play_rudebuster			\Default Work Unit\Play_rudebuster	
+	3115073109	Play_grave			\Default Work Unit\Play_grave	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3673881719	Volume_SFX			\Default Work Unit\Volume_SFX	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	202401764	grave	C:\Users\agnek\Documents\GitHub\RiskOfRuneRemake\RiskOfRuneProject\RiskOfRuneProject_WwiseProject\.cache\Mac\SFX\grave_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\grave		22231
+	295576764	dialtone	C:\Users\agnek\Documents\GitHub\RiskOfRuneRemake\RiskOfRuneProject\RiskOfRuneProject_WwiseProject\.cache\Mac\SFX\dialtone_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\dialtone		20335
+	311189968	roaringblade	C:\Users\agnek\Documents\GitHub\RiskOfRuneRemake\RiskOfRuneProject\RiskOfRuneProject_WwiseProject\.cache\Mac\SFX\roaringblade_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\roaringblade		10354
+	425144827	BIGSHOT	C:\Users\agnek\Documents\GitHub\RiskOfRuneRemake\RiskOfRuneProject\RiskOfRuneProject_WwiseProject\.cache\Mac\SFX\BIGSHOT_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\BIGSHOT		24964
+	542612681	iceshock	C:\Users\agnek\Documents\GitHub\RiskOfRuneRemake\RiskOfRuneProject\RiskOfRuneProject_WwiseProject\.cache\Mac\SFX\iceshock_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\iceshock		13333
+	696752992	sageheal	C:\Users\agnek\Documents\GitHub\RiskOfRuneRemake\RiskOfRuneProject\RiskOfRuneProject_WwiseProject\.cache\Mac\SFX\sageheal_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\sageheal		5042
+	994012105	rudebuster	C:\Users\agnek\Documents\GitHub\RiskOfRuneRemake\RiskOfRuneProject\RiskOfRuneProject_WwiseProject\.cache\Mac\SFX\rudebuster_EDCD4836.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Mixer\rudebuster		9738
+

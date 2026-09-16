@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="RiskOfRuneProject_WwiseProject" GUID="{64984CA6-3627-4FC2-86DC-705864D98E22}" Generator="2023.1.4.8496"/>
+	<CacheRoot>../../../../RiskOfRuneProject_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{63ECB799-224A-41CB-9E4C-59A33E56EBEC}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../RiskOfRuneProject_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{BBACC51F-E09C-4500-AC04-07516866F233}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../RiskOfRuneProject_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{B3FDBC77-7E61-46D8-85BF-F0D7F3C2F362}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{EF821F8D-EC76-F02A-003D-8B6B4E183AE2}</FileHash>
+</ProjectInfo>

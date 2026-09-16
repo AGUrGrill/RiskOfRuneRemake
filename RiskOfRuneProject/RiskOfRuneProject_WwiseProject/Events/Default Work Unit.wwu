@@ -1,6 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{94670DA8-EBBC-448D-9D4C-F285E2A512D6}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{94670DA8-EBBC-448D-9D4C-F285E2A512D6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{94670DA8-EBBC-448D-9D4C-F285E2A512D6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_BIGSHOT" ID="{F2E5CFE0-5318-42A2-B2C7-ED4CA92959A2}">
+					<ChildrenList>
+						<Action Name="" ID="{5B467F38-F8B0-4E45-9C9D-F1C4A21AD784}" ShortID="790747312">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BIGSHOT" ID="{6477BA6B-BC41-40AB-B1CD-CB1DFE98E4F7}" WorkUnitID="{65FF1A1E-C70A-4FC6-A862-86FE4E4D652D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_dialtone" ID="{F34F5F97-7B23-4913-9230-E2C3AEBAF35B}">
+					<ChildrenList>
+						<Action Name="" ID="{CC98088D-12F9-4086-97BD-0CD859855FB9}" ShortID="41879052">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dialtone" ID="{FE1B200A-2654-4A10-AF6C-7C9791F24914}" WorkUnitID="{65FF1A1E-C70A-4FC6-A862-86FE4E4D652D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_grave" ID="{88387F72-DA80-4507-AB84-43896B5BD4C4}">
+					<ChildrenList>
+						<Action Name="" ID="{8C438FE5-1383-4435-838E-617067C1BAC7}" ShortID="827043537">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="grave" ID="{42520573-6C1D-4E34-9DF9-537D0BFA2555}" WorkUnitID="{65FF1A1E-C70A-4FC6-A862-86FE4E4D652D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_iceshock" ID="{1333463C-9EB2-41D0-911A-CD19CCB4ADB3}">
+					<ChildrenList>
+						<Action Name="" ID="{3159A781-BB25-4221-8A7D-A40B2EEC6358}" ShortID="1028827014">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="iceshock" ID="{176C9A66-7390-4C57-807D-6AF69EF320E8}" WorkUnitID="{65FF1A1E-C70A-4FC6-A862-86FE4E4D652D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_roaringblade" ID="{054D1D1C-000A-40F9-802A-569EFAB1C0E1}">
+					<ChildrenList>
+						<Action Name="" ID="{95F8C7C0-93A9-4907-B3C0-B87BA50A99AB}" ShortID="410219041">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="roaringblade" ID="{10E9B4BF-B71E-4194-80F4-F8FABB78EB4C}" WorkUnitID="{65FF1A1E-C70A-4FC6-A862-86FE4E4D652D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_rudebuster" ID="{948D9C50-B19F-413D-A7E6-CB3D49F1FE29}">
+					<ChildrenList>
+						<Action Name="" ID="{F37E6FEF-5A28-488D-BEEB-09886A3F1F63}" ShortID="191040901">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="rudebuster" ID="{C295ED3D-552C-4E5B-BEBE-E4B4D396E550}" WorkUnitID="{65FF1A1E-C70A-4FC6-A862-86FE4E4D652D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sageheal" ID="{C2CD6EC5-9DFE-4BC5-A846-0C1A7ABD8C1A}">
+					<ChildrenList>
+						<Action Name="" ID="{BB87C94D-57FF-4DF9-89D5-38D5C00D74E7}" ShortID="809024603">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sageheal" ID="{BADB6BCF-6B06-4FA5-A2AD-716B1EF4DDF0}" WorkUnitID="{65FF1A1E-C70A-4FC6-A862-86FE4E4D652D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

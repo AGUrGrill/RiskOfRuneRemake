@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7F3A15DD-340D-EF22-59CE-AC32EA50B08A}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="3673881719" Name="Volume_SFX"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="2909651858" Type="User" Language="SFX" Hash="{3D6AB7D1-2B0F-7D16-A827-7FD2CD5CA95F}">
+			<ShortName>RiskOfRuneSoundbank</ShortName>
+			<Path>RiskOfRuneSoundbank.bnk</Path>
+			<Media>
+				<File Id="202401764" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>grave.wav</ShortName>
+					<CachePath>SFX/grave_EDCD4836.wem</CachePath>
+				</File>
+				<File Id="295576764" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>dialtone.WAV</ShortName>
+					<CachePath>SFX/dialtone_EDCD4836.wem</CachePath>
+				</File>
+				<File Id="311189968" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>roaringblade.wav</ShortName>
+					<CachePath>SFX/roaringblade_EDCD4836.wem</CachePath>
+				</File>
+				<File Id="425144827" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BIGSHOT.WAV</ShortName>
+					<CachePath>SFX/BIGSHOT_EDCD4836.wem</CachePath>
+				</File>
+				<File Id="542612681" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>iceshock.wav</ShortName>
+					<CachePath>SFX/iceshock_EDCD4836.wem</CachePath>
+				</File>
+				<File Id="696752992" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sageheal.wav</ShortName>
+					<CachePath>SFX/sageheal_EDCD4836.wem</CachePath>
+				</File>
+				<File Id="994012105" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>rudebuster.wav</ShortName>
+					<CachePath>SFX/rudebuster_EDCD4836.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1506173320" Name="Play_BIGSHOT" MaxAttenuation="150" DurationType="OneShot" DurationMin="1.3931973" DurationMax="1.3931973">
+					<MediaRefs>
+						<MediaRef Id="425144827"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2011881192" Name="Play_dialtone" MaxAttenuation="150" DurationType="OneShot" DurationMin="1.1609977" DurationMax="1.1609977">
+					<MediaRefs>
+						<MediaRef Id="295576764"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3115073109" Name="Play_grave" MaxAttenuation="150" DurationType="OneShot" DurationMin="3.1640136" DurationMax="3.1640136">
+					<MediaRefs>
+						<MediaRef Id="202401764"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="893303731" Name="Play_iceshock" MaxAttenuation="150" DurationType="OneShot" DurationMin="0.95201814" DurationMax="0.95201814">
+					<MediaRefs>
+						<MediaRef Id="542612681"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1166387236" Name="Play_roaringblade" MaxAttenuation="150" DurationType="OneShot" DurationMin="1.02" DurationMax="1.02">
+					<MediaRefs>
+						<MediaRef Id="311189968"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2204239051" Name="Play_rudebuster" MaxAttenuation="150" DurationType="OneShot" DurationMin="0.95339584" DurationMax="0.95339584">
+					<MediaRefs>
+						<MediaRef Id="994012105"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="520313368" Name="Play_sageheal" MaxAttenuation="150" DurationType="OneShot" DurationMin="0.435375" DurationMax="0.435375">
+					<MediaRefs>
+						<MediaRef Id="696752992"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="3673881719" Name="Volume_SFX"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{8B81F29E-066F-0637-7476-586E692A9414}</FileHash>
+</SoundBanksInfo>

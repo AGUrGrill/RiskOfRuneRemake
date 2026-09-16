@@ -4,7 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{65FF1A1E-C70A-4FC6-A862-86FE4E4D652D}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="SFX_Mixer" ID="{77231037-D095-4127-B3B4-1151F9EA2D45}" ShortID="263246968">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="RiskOfRuneAttenuation" ID="{1251F601-3538-4D1D-A06E-BEDE5326978C}" WorkUnitID="{EC178BF0-1547-4746-891F-E12B51A0EAC0}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F1010BA-7547-4CCA-99CD-BCB2CA9C5C18}"/>
 						</Reference>
@@ -14,6 +20,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="sageheal" ID="{BADB6BCF-6B06-4FA5-A2AD-716B1EF4DDF0}" ShortID="185170850">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F1010BA-7547-4CCA-99CD-BCB2CA9C5C18}"/>
@@ -36,6 +49,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="grave" ID="{42520573-6C1D-4E34-9DF9-537D0BFA2555}" ShortID="631731731">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F1010BA-7547-4CCA-99CD-BCB2CA9C5C18}"/>
@@ -58,6 +78,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="dialtone" ID="{FE1B200A-2654-4A10-AF6C-7C9791F24914}" ShortID="785543518">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F1010BA-7547-4CCA-99CD-BCB2CA9C5C18}"/>
@@ -102,6 +129,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="roaringblade" ID="{10E9B4BF-B71E-4194-80F4-F8FABB78EB4C}" ShortID="456238627">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F1010BA-7547-4CCA-99CD-BCB2CA9C5C18}"/>
@@ -124,6 +158,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="iceshock" ID="{176C9A66-7390-4C57-807D-6AF69EF320E8}" ShortID="162769447">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F1010BA-7547-4CCA-99CD-BCB2CA9C5C18}"/>
@@ -168,6 +209,45 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{9C08E3AD-E21C-4765-9991-C3F1F7E11CDC}" ShortID="247062137">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Volume_SFX" ID="{8F9A71D3-52EC-4DEC-B7E8-9CCEB1C507EA}" WorkUnitID="{771C10E2-F13D-49CA-BD12-927D7F45706A}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{3EDAF250-DB2B-4517-B5F5-4E69E982FB43}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
